@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'TimeController@index');
+Route::get('/', 'BillController@index');
