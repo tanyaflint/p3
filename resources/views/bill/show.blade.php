@@ -10,11 +10,9 @@
 @endpush
 
 @section('content')
-
-    <div class='container'>
         <div class="col-xs-12 col-sm-6">
             <p>Welcome! This tool will help you split a tab and tips</p>
-            <form method='GET' action='index.php' class='form-horizontal'>
+            <form method='GET' action='index.php' class=''>
                 <div class="input-group">
                     <span class='input-group-addon' id='basic-addon1'>Split how many ways?</span>
 
@@ -56,5 +54,4 @@
                 <input type='submit' class='btn btn-primary btn-md' value='Calculate'>
             </form>
         </div>
-    </div>
 @endsection
