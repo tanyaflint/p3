@@ -17,10 +17,10 @@ class BillController extends Controller
         $resultTotal = '';
 
         if ($total) {
-            $this->validate($request, [
+            /*$this->validate($request, [
                 'numberOfWays' => 'required',
                 'total' => 'required'
-            ]);
+            ]);*/
 
             #Initiate a Splitter object
             $splitter = new Splitter($total, $service);
