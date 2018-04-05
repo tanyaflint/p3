@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="col-xs-12 col-sm-6">
-        <p>Welcome! This tool will help you split a tab and tips</p>
+        <h5>Welcome! This tool will help you split a tab and tips</h5>
         <form method='POST' action='/bill/create' class=''>
             {{ csrf_field() }}
 
@@ -56,7 +56,7 @@
                        type="checkbox"
                        value="1"
                        id="defaultCheck1"
-                    {{old('roundUp', $roundUp) ? 'checked' : ''}}
+                        {{old('roundUp', $roundUp) ? 'checked' : ''}}
                 >
             </div>
             <input type='submit' class='btn btn-primary btn-md' value='Calculate'>

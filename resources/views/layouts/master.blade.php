@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <title>{{'Bill Splitter'}}</title>
     <meta charset='utf-8'>
@@ -20,10 +20,10 @@
         @yield('content')
     </section>
 </div>
-    <footer>
-        &copy; {{ date('Y') }}
-    </footer>
+<footer>
+    &copy; {{ date('Y') }}
+</footer>
 
-    @stack('body')
+@stack('body')
 </body>
 </html>
