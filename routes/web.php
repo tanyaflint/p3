@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'BillController@index');
+
+Route::post('/bill/create', 'BillController@show');
